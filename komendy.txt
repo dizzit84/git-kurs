@@ -1,0 +1,15 @@
+pliki nitrakowane (rorking directory) -> commity (staging area) -> libraries
+
+
+git init		# zakładanie repozytorium
+ls 			# wyswietlanie plików w folderze
+ls -a			# wyświetla tez ukryte
+
+git status		# info
+touch 1.txt		# tworzy plik "1.txt"
+
+git add	1.txt		# trakowanie pliku 1.txt
+git commit -m"xx	# komentarz "xx"
+git log			# przejżenie historii
+
+git add -A		# dodanie wszytskich nietrakowanych plików 
