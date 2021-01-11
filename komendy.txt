@@ -9,7 +9,12 @@ git status		# info
 touch 1.txt		# tworzy plik "1.txt"
 
 git add	1.txt		# trakowanie pliku 1.txt
-git commit -m"xx	# komentarz "xx"
+git commit -m"xx"	# komentarz "xx"
+git commit -am"xx"	# add i commit za jednym zamachem
 git log			# przejżenie historii
 
 git add -A		# dodanie wszytskich nietrakowanych plików 
+git branch		# wskazuje gałąź na w jakiej aktalnie działamy
+git checkout -b"test"	# tworzenie noweg branca np. zewnętrznie robimy dodatkową funkcjonalność
+
+git merge modul		#połaczenie aktualnego brancha z modul
